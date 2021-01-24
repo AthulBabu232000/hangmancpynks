@@ -409,7 +409,7 @@ const wordFinder = () => {
 const dashGenerator = () => {
   let dashHtml = "";
   dashHtml += wordArray.reduce((spanHtml, presentLetter) => {
-    spanHtml += `<input class = 'inputans'>`;
+    spanHtml += `<input disabled class = 'inputans'>`;
     return spanHtml;
   }, "");
 
