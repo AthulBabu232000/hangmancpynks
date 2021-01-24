@@ -519,7 +519,7 @@ button:focus {
   }
 }
 @media (max-width: 650px) {
-  
+   
   .btnBox {
     padding-left: 40px;
   }
