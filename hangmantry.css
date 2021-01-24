@@ -1,4 +1,4 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Condiment&family=Poppins&display=swap");* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -315,9 +315,7 @@ button:focus {
   }
 }
 @media (max-width: 1100px) {
-  body {
-    background-color: violet;
-  }
+  
   .inputans {
     position: relative;
     left: -200px;
@@ -326,9 +324,7 @@ button:focus {
 }
 
 @media (max-width: 1055px) {
-  body {
-    background-color: yellow;
-  }
+   
   .hangCoir img {
     position: relative;
   }
@@ -509,9 +505,7 @@ button:focus {
 }
 
 @media (max-width: 700px) {
-  body {
-    background-color: aqua;
-  }
+  
 
   .btnBox {
     padding-left: 50px;
@@ -525,9 +519,7 @@ button:focus {
   }
 }
 @media (max-width: 650px) {
-  body {
-    background-color: purple;
-  }
+  
   .btnBox {
     padding-left: 40px;
   }
@@ -551,6 +543,7 @@ button:focus {
 }
 
 @media (max-width: 520px) {
+
   body {
     background-color: white;
   }
@@ -558,8 +551,8 @@ button:focus {
   .btnHeading {
     top: -20px;
     /* left: -40px; */
-    left: -100px;
-    font-size: 10px;
+    left: -1px;
+    font-size: 12px;
   }
   .btnHeading h1 {
     margin: 0;
@@ -572,7 +565,9 @@ button:focus {
     top: 0px;
     position: relative;
     margin: 0 auto;
-    padding-left: 3px;
+    padding-left: 60px;
+     
+    padding-right:0px;
   }
 
   .alpha {
@@ -582,6 +577,14 @@ button:focus {
     font-family: "Poppins", sans-serif;
     margin-left: 2px;
   }
+   
+.alpha:active,
+.alpha:focus {
+  color: #333;
+  box-shadow: 0 0;
+  transform: scale(0.95);
+ 
+}
 
   .timerBox {
     position: relative;
@@ -607,7 +610,7 @@ button:focus {
     height: 100%;
     width: 100px;
     /* background-color: red; */
-    left: 220px;
+    left: 300px;
   }
 
   .hangCoir img {
