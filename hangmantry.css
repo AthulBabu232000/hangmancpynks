@@ -315,6 +315,10 @@ button:focus {
   transform: scale(0.95);
 }
 
+input:disabled{
+  background-color:white;
+}
+
 /*Responsive*/
 
 @media (max-width: 1300px) {
