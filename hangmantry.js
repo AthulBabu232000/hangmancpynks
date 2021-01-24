@@ -486,8 +486,9 @@ const checker = (el) => {
     }
 
     el.disabled = true;
-
+   
     wrongBorder(btnBox);
+   
 
   }
 };
