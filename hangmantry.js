@@ -378,19 +378,18 @@ const words = [
 // vertical
 // victoria
 // violence
-// volatile
-// warranty
-// weakness
-// weighted
-// whatever
-// whenever
-// wherever
-// wildlife
-// wireless
-// withdraw
-// woodland
-// workshop
-// yourself
+
+"warranty",
+"weakness",
+"weighted",
+"whatever",
+"whenever",
+"wherever",
+"wildlife",
+"wireless",
+"withdraw",
+"workshop",
+
 ];
 
 var count = 0;
@@ -427,7 +426,6 @@ const checker = (el) => {
   console.log("who the hell are you to check our console");
 
   if (wordString.includes(checkName)) {
-    console.log(word);
    
 
     winCount = 1;
